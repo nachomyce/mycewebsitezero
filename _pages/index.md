@@ -8,10 +8,10 @@ modalId: "upgrade-notification"
 modalCacheRef: "2.1.0"
 ---
 
-<link href="/assets/vendors/mediabox/mediabox.css" rel="stylesheet">
+<link href="../assets/vendors/mediabox/mediabox.css" rel="stylesheet">
 <style>
   .banner {
-    background: url("/assets/img/home/gplaypattern.png");
+    background: url("../assets/img/home/gplaypattern.png");
     padding: 12em 0 13em;
     animation: animatedBackground 15s linear infinite;
     -moz-animation: animatedBackground 15s linear infinite;
@@ -105,7 +105,7 @@ modalCacheRef: "2.1.0"
       <div id="tab-1" class="tab-pane active">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-token" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/token.svg"}}" alt="token"/>
+            <img class="animated mb-4" id="tab-token" style="max-width: 150px;margin-top: 15px;" src="{{"../assets/img/svg/token.svg"}}" alt="token"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
            <h3 class="text-white">Representing real world custodied physical or digital asset</h3>
@@ -121,7 +121,7 @@ modalCacheRef: "2.1.0"
       <div id="tab-2" class="tab-pane">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-tickets" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/tickets.svg"}}" alt="tickets"/>
+            <img class="animated mb-4" id="tab-tickets" style="max-width: 150px;margin-top: 15px;" src="{{"../assets/img/svg/tickets.svg"}}" alt="tickets"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
             <h3 class="text-white">Representing virtual goods</h3>
@@ -159,7 +159,7 @@ modalCacheRef: "2.1.0"
       <div id="tab-4" class="tab-pane">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-gift-card" style="max-width: 150px;" src="{{"/assets/img/svg/gift-card.svg"}}" alt="gift-card"/>
+            <img class="animated mb-4" id="tab-gift-card" style="max-width: 150px;" src="{{"../assets/img/svg/gift-card.svg"}}" alt="gift-card"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
             <h3 class="text-white">Representing a credit</h3>
@@ -190,7 +190,7 @@ modalCacheRef: "2.1.0"
         </ul>
       </div>
       <div class="w-full sm:w-full md:w-1/4 text-center hidden md:block">
-        <img id="logo-why" class="animated" style="margin-top: 30px;" src="{{"/assets/img/home/raven-flock.png"}}" alt="ravencoin logo">
+        <img id="logo-why" class="animated" style="margin-top: 30px;" src="{{"../assets/img/home/raven-flock.png"}}" alt="ravencoin logo">
       </div>
     </div>
   </div>
@@ -225,7 +225,7 @@ modalCacheRef: "2.1.0"
   </div>
 </div>
 
-<script src="/assets/vendors/mediabox/mediabox.js"></script>
+<script src="../assets/vendors/mediabox/mediabox.js"></script>
 <script>
   MediaBox('.mediabox');
 </script>
