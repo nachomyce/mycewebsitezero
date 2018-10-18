@@ -2,7 +2,7 @@
 layout: page-w-banner
 title: Community
 bannerTitle: Community Resources
-bannerImage: /assets/img/pages/community/community-banner.jpg
+bannerImage: ../mycewebsitezero/assets/img/pages/community/community-banner.jpg
 permalink: /community/
 ---
 
@@ -38,7 +38,7 @@ permalink: /community/
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://discord.gg/jn6uhur" target="_blank">
           <div class="mb-6 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark" style="padding-top: 1.75em;padding-bottom: 1.75em;">
-            <img style="width:40px;" src="{{"/assets/img/pages/community/discord.png"}}" alt="discord"/>
+            <img style="width:40px;" src="{{"../mycewebsitezero/assets/img/pages/community/discord.png"}}" alt="discord"/>
           </div>
         </a>
         <h3><a href="https://discord.gg/jn6uhur" target="_blank">Discord</a></h3>
@@ -46,7 +46,7 @@ permalink: /community/
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://t.me/RavencoinDev" target="_blank">
           <div class="mb-6 py-5 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
-            <img style="width:40px;" src="{{"/assets/img/pages/community/telegram.png"}}" alt="telegram"/>
+            <img style="width:40px;" src="{{"../mycewebsitezero/assets/img/pages/community/telegram.png"}}" alt="telegram"/>
           </div>
         </a>
         <h3><a href="https://t.me/RavencoinDev" target="_blank">Telegram</a></h3>
@@ -78,7 +78,7 @@ permalink: /community/
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://medium.com/@ravencoin" target="_blank">
           <div class="mb-6 py-6 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
-            <img style="width:40px;" src="{{"/assets/img/pages/community/medium.png"}}" alt="medium"/>
+            <img style="width:40px;" src="{{"../mycewebsitezero/assets/img/pages/community/medium.png"}}" alt="medium"/>
           </div>
         </a>
         <h3><a href="https://medium.com/@ravencoin" target="_blank">Medium</a></h3>
